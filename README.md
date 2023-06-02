@@ -1,5 +1,9 @@
 # e-learning
 
+The purpose of this project is to provide an accessible (WCAG-compliant) e-learning framework.
+
+Currently under construction. :construction:
+
 ## Project setup
 ```
 pnpm install
