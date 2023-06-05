@@ -7,6 +7,9 @@ dependencies:
   vue:
     specifier: ^3.2.13
     version: 3.2.13
+  vuetify:
+    specifier: ^3.3.2
+    version: 3.3.2(vue@3.2.13)
 
 devDependencies:
   '@babel/core':
@@ -6694,6 +6697,28 @@ packages:
       '@vue/runtime-dom': 3.2.13
       '@vue/server-renderer': 3.2.13(vue@3.2.13)
       '@vue/shared': 3.2.13
+
+  /vuetify@3.3.2(vue@3.2.13):
+    resolution: {integrity: sha512-m/R42di8FlyMaoktUe6k8JbF+A0vbJMpjQrZK7nH1ptK8VinVVQcaw+9m94wlO74IMR+LubxLh5t9I2ZtVCvjw==}
+    engines: {node: ^12.20 || >=14.13}
+    peerDependencies:
+      typescript: '>=4.7'
+      vite-plugin-vuetify: ^1.0.0-alpha.12
+      vue: ^3.2.0
+      vue-i18n: ^9.0.0
+      webpack-plugin-vuetify: ^2.0.0-alpha.11
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+      vite-plugin-vuetify:
+        optional: true
+      vue-i18n:
+        optional: true
+      webpack-plugin-vuetify:
+        optional: true
+    dependencies:
+      vue: 3.2.13
+    dev: false
 
   /watchpack@2.4.0:
     resolution: {integrity: sha512-Lcvm7MGST/4fup+ifyKi2hjyIAwcdI4HRgtvTpIUxBRhB+RFtUh8XtDOxUfctVCnhVi+QQj49i91OyvzkJl6cg==}
